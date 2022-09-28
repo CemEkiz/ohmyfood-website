@@ -1,0 +1,36 @@
+:root {
+	/* ---------------- COLORS ---------------- */
+	--clr-primary-100: hsl(267, 65%, 85%);
+	--clr-primary-400: hsl(267, 65%, 70%);
+	--clr-primary-700: hsl(267, 65%, 60%);
+
+	--clr-secondary-400: hsl(316, 100%, 83%);
+	--clr-secondary-700: hsl(316, 100%, 73%);
+
+	--clr-tertiary-400: hsl(165, 55%, 74%);
+	--clr-tertiary-700: hsl(165, 55%, 35%);
+
+	--grd-purple-400: linear-gradient(0deg, var(--clr-primary-400), var(--clr-secondary-400));
+	--grd-purple-700: linear-gradient(0deg, var(--clr-primary-700), var(--clr-secondary-700));
+
+	/* ---------------- FONT-SIZE ---------------- */
+	--ff-title: 'Shrikhand', cursive;
+	--ff-body: 'Roboto', sans-serif;
+
+	/* ---------------- FONT-SIZE ---------------- */
+	--fs-small: 1.4rem;
+	--fs-regular: 1.6rem;
+	--fs-medium: 1.8rem;
+	--fs-large: 2rem;
+	--fs-title: 2.4rem;
+
+	/* ---------------- FONT WEIGHT ---------------- */
+	--fw-regular: 400;
+	--fw-bold: 700;
+
+	/* ---------------- MARGINS ---------------- */
+	--mb-xs: 1.6rem;
+	--mb-s: 2.4rem;
+	--mb-m: 3.2rem;
+	--mb-l: 6.4rem;
+}

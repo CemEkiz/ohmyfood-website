@@ -36,9 +36,9 @@ html:focus-within {
 
 // Set core body defaults
 body {
-	font-family: '', sans-serif;
+	font-family: var(--ff-body), sans-serif;
 	font-weight: 400;
-	font-size: 1.6rem;
+	font-size: var(--fs-regular);
 	line-height: 1;
 	color: #555;
 	overflow-x: hidden;
