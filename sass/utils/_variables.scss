@@ -15,6 +15,8 @@ $clr-gray: hsl(0, 0%, 30%);
 $grd-purple-400: linear-gradient(0deg, $clr-primary-400, $clr-secondary-400);
 $grd-purple-700: linear-gradient(0deg, $clr-primary-700, $clr-secondary-700);
 
+$clr-shadow: hsl(0, 0%, 10%, 10%);
+
 /* ---------------- FONT-SIZE ---------------- */
 $ff-title: 'Shrikhand', cursive;
 $ff-body: 'Roboto', sans-serif;
@@ -35,3 +37,7 @@ $mb-xs: 1.6rem;
 $mb-s: 2.4rem;
 $mb-m: 3.2rem;
 $mb-l: 6.4rem;
+
+/* ---------------- BOX-SHADOW ---------------- */
+$shadow: 0 3px 15px 0 $clr-shadow;
+$shadow-hover: 0 10px 15px 0 $clr-shadow;
