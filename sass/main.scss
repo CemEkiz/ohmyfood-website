@@ -1,2 +1,2 @@
-@use 'base/helpers';
-@use 'base/reset';
+@forward 'base/helpers';
+@forward 'base/reset';
