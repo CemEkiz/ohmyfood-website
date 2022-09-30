@@ -3,12 +3,12 @@
 ///////////////////////////////////////////////////
 
 // 0 - 640px:             Mobile-first
-// 640px - 1280px:        Laptop / Tablet       (min-width: 640px)      => 40em      (640/16 = 40)
+// 640px - 1280px:        Tablet                (min-width: 640px)      => 40em      (640/16 = 40)
 // 1280px +:              Desktop               (min-width: 1280px)     => 80em      (1280/16 = 80)
 
 @mixin respond($breakpoint) {
 	// 640px
-	@if $breakpoint == laptop {
+	@if $breakpoint == tablet {
 		@media only screen and (min-width: 40em) {
 			@content;
 		}
