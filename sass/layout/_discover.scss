@@ -1,7 +1,8 @@
-@use '../utils/variables' as *;
+@use '../utils/' as *;
 
 .discover {
 	// padding: 1.8rem;
+	margin-bottom: $mb-l;
 
 	&__location {
 		display: flex;
@@ -19,7 +20,7 @@
 	}
 
 	&__content {
-		padding: 6rem 4rem;
+		padding: 6.4rem 4rem;
 		background-color: $clr-gray-100;
 		text-align: center;
 
@@ -34,23 +35,6 @@
 			font-size: $fs-large;
 			font-weight: 300;
 			margin-bottom: $mb-m;
-		}
-
-		// FIXME: Background transition effect does'nt work
-		&__cta {
-			display: inline-block;
-			padding: 1.8rem 2.4rem;
-			color: $clr-gray-100;
-			font-weight: $fw-700;
-			border-radius: $br-rounded;
-
-			background: $grd-purple-700;
-			opacity: 1;
-			transition: opacity 0.3s;
-
-			&:hover {
-				opacity: 0.85;
-			}
 		}
 	}
 }

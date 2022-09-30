@@ -1,0 +1,17 @@
+@use '../utils/' as *;
+
+.button {
+	display: inline-block;
+	padding: 1.8rem 2.4rem;
+	color: $clr-gray-100;
+	font-weight: $fw-700;
+	border-radius: $br-rounded;
+
+	background: $grd-purple-700;
+	opacity: 1;
+	transition: opacity 0.3s;
+
+	&:hover {
+		opacity: 0.85;
+	}
+}
