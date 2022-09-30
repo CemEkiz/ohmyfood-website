@@ -5,7 +5,8 @@
 	align-items: center;
 	justify-content: center;
 	padding: 1.8rem;
-	box-shadow: $shadow;
+	box-shadow: $shadow-header;
+	position: relative;
 
 	&__logo {
 		width: 18rem;
