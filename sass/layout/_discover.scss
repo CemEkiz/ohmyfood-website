@@ -1,0 +1,54 @@
+@use '../utils/variables' as *;
+
+.discover {
+	// padding: 1.8rem;
+
+	&__location {
+		display: flex;
+		justify-content: center;
+		gap: 1.6rem;
+		padding: 1.8rem;
+		color: $clr-gray-700;
+		background-color: $clr-gray-200;
+
+		&__icon {
+			fill: $clr-gray-700;
+			height: 1.6rem;
+			width: 1.6rem;
+		}
+	}
+
+	&__content {
+		padding: 6rem 4rem;
+		background-color: $clr-gray-100;
+		text-align: center;
+
+		&__heading {
+			font-size: $fs-big-title;
+			font-weight: $fw-900;
+			line-height: 1;
+			margin-bottom: $mb-xs;
+		}
+
+		&__description {
+			font-size: $fs-large;
+			font-weight: 300;
+			margin-bottom: $mb-m;
+		}
+
+		// FIXME: Background transition effect does'nt work
+		&__cta {
+			display: inline-block;
+			background: $grd-purple-700;
+			padding: 1.8rem 2.4rem;
+			color: $clr-gray-100;
+			font-weight: $fw-700;
+			border-radius: $br-rounded;
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				background: $grd-purple-400;
+			}
+		}
+	}
+}

@@ -10,7 +10,9 @@ $clr-tertiary-400: hsl(165, 55%, 74%);
 $clr-tertiary-700: hsl(165, 55%, 35%);
 
 $clr-black: hsl(0, 0%, 10%);
-$clr-gray: hsl(0, 0%, 30%);
+$clr-gray-700: hsl(0, 0%, 30%);
+$clr-gray-200: hsl(0, 0%, 90%);
+$clr-gray-100: hsl(0, 0%, 96%);
 
 $grd-purple-400: linear-gradient(0deg, $clr-primary-400, $clr-secondary-400);
 $grd-purple-700: linear-gradient(0deg, $clr-primary-700, $clr-secondary-700);
@@ -27,10 +29,13 @@ $fs-regular: 1.6rem;
 $fs-medium: 1.8rem;
 $fs-large: 2rem;
 $fs-title: 2.4rem;
+$fs-big-title: 2.8rem;
 
 /* ---------------- FONT WEIGHT ---------------- */
-$fw-regular: 400;
-$fw-bold: 700;
+$fw-300: 300;
+$fw-400: 400;
+$fw-700: 700;
+$fw-900: 900;
 
 /* ---------------- MARGINS ---------------- */
 $mb-xs: 1.6rem;
@@ -41,3 +46,8 @@ $mb-l: 6.4rem;
 /* ---------------- BOX-SHADOW ---------------- */
 $shadow: 0 3px 15px 0 $clr-shadow;
 $shadow-hover: 0 10px 15px 0 $clr-shadow;
+
+/* ---------------- BOX-SHADOW ---------------- */
+$br-100: 0.8rem;
+$br-200: 1.6rem;
+$br-rounded: 100rem;
