@@ -1,0 +1,43 @@
+@use '../utils/' as *;
+
+.step {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	background-color: $clr-gray-100;
+	padding: 2.4rem 1.6rem;
+	box-shadow: $shadow;
+	border-radius: $br-200;
+	cursor: pointer;
+
+	&__number {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.4rem;
+		height: 2.4rem;
+		border-radius: 100%;
+		background-color: $clr-primary-700;
+		font-size: $fs-small;
+		color: $clr-gray-100;
+		margin-left: -2.6rem;
+	}
+
+	&__icon {
+		width: 1.8rem;
+		height: 1.8rem;
+		fill: $clr-gray-400;
+	}
+
+	&__description {
+		font-weight: $fw-700;
+	}
+}
+
+.step.step--final {
+	background-color: $clr-primary-100;
+
+	.step__icon {
+		fill: $clr-primary-700;
+	}
+}

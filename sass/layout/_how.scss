@@ -1,0 +1,17 @@
+@use '../utils/' as *;
+
+.how {
+	margin-bottom: $mb-l;
+
+	&__heading {
+		font-size: $fs-title;
+		font-weight: $fw-900;
+		margin-bottom: $mb-s;
+	}
+
+	&__steps {
+		display: flex;
+		flex-direction: column;
+		gap: 2.4rem;
+	}
+}

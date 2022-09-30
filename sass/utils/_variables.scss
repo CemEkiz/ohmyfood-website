@@ -1,5 +1,5 @@
 /* ---------------- COLORS ---------------- */
-$clr-primary-100: hsl(267, 65%, 85%);
+$clr-primary-100: hsl(267, 65%, 95%);
 $clr-primary-400: hsl(267, 65%, 70%);
 $clr-primary-700: hsl(267, 65%, 60%);
 
@@ -11,12 +11,13 @@ $clr-tertiary-700: hsl(165, 55%, 35%);
 
 $clr-black: hsl(0, 0%, 10%);
 $clr-gray-700: hsl(0, 0%, 30%);
+$clr-gray-400: hsl(0, 0%, 50%);
 $clr-gray-200: hsl(0, 0%, 90%);
 $clr-gray-100: hsl(0, 0%, 96%);
 
 $grd-purple-700: linear-gradient(0deg, $clr-primary-700, $clr-secondary-700);
 
-$clr-shadow: hsl(0, 0%, 10%, 10%);
+$clr-shadow: hsl(0, 0%, 10%, 13%);
 
 /* ---------------- FONT-SIZE ---------------- */
 $ff-title: 'Shrikhand', cursive;
@@ -36,17 +37,17 @@ $fw-400: 400;
 $fw-700: 700;
 $fw-900: 900;
 
-/* ---------------- MARGINS ---------------- */
+/* ---------------- SPACINGS ---------------- */
 $mb-xs: 1.6rem;
 $mb-s: 2.4rem;
 $mb-m: 3.2rem;
 $mb-l: 6.4rem;
 
 /* ---------------- BOX-SHADOW ---------------- */
-$shadow: 0 3px 15px 0 $clr-shadow;
+$shadow: 0 6px 8px 0 $clr-shadow;
 $shadow-hover: 0 10px 15px 0 $clr-shadow;
 
-/* ---------------- BOX-SHADOW ---------------- */
+/* ---------------- BORDER-RADIUS ---------------- */
 $br-100: 0.8rem;
 $br-200: 1.6rem;
 $br-rounded: 100rem;
