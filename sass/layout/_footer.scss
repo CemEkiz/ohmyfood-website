@@ -1,0 +1,55 @@
+@use '../utils/' as *;
+
+.footer {
+	background-color: $clr-gray-700;
+	padding-top: 3.2rem;
+	padding-bottom: 3.2rem;
+	color: $clr-white;
+
+	&__logo {
+		display: block;
+		height: 4rem;
+		margin-bottom: 1rem;
+		width: min-content;
+
+		& svg {
+			fill: $clr-white;
+			height: 100%;
+			width: 12rem;
+			transition: all 0.3s;
+			cursor: pointer;
+
+			&:hover {
+				width: 13rem;
+				fill: $clr-gray-200;
+			}
+		}
+	}
+
+	&__nav {
+		&__links {
+			& li {
+				gap: 1.2rem;
+
+				&:hover {
+					color: $clr-gray-200;
+					transition: all 0.3s;
+				}
+
+				& svg {
+					fill: $clr-white;
+					cursor: pointer;
+					transition: all 0.3s;
+
+					&:hover {
+						fill: $clr-gray-200;
+					}
+				}
+			}
+
+			& li:not(:last-child) {
+				margin-bottom: 0.6rem;
+			}
+		}
+	}
+}
