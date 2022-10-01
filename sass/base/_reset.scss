@@ -41,7 +41,7 @@ html:focus-within {
 // Set core body defaults
 body {
 	font-family: $ff-body, sans-serif;
-	font-weight: 400;
+	font-weight: $fw-regular;
 	font-size: $fs-regular;
 	color: $clr-black;
 	overflow-x: hidden;

@@ -24,14 +24,14 @@
 
 		&__heading {
 			font-size: $fs-big-title;
-			font-weight: $fw-900;
+			font-weight: $fw-extrabold;
 			line-height: 1;
 			margin-bottom: $mb-xs;
 		}
 
 		&__description {
 			font-size: $fs-large;
-			font-weight: 300;
+			font-weight: $fw-light;
 			margin-bottom: $mb-m;
 		}
 	}

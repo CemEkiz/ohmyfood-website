@@ -30,7 +30,7 @@
 			& a {
 				display: inline-block;
 				font-size: $fs-large;
-				font-weight: $fw-700;
+				font-weight: $fw-bold;
 				margin-bottom: 0.6rem;
 			}
 		}
@@ -52,7 +52,7 @@
 		background-color: $clr-tertiary-400;
 		color: $clr-tertiary-700;
 		border-radius: 0.2rem;
-		font-weight: $fw-500;
+		font-weight: $fw-medium;
 		font-size: $fs-small;
 		padding: 0.4rem 1.2rem;
 	}
