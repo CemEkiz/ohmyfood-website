@@ -1,0 +1,16 @@
+@use '../utils/' as *;
+
+.restaurant {
+	display: flex;
+	flex-direction: column;
+	gap: 2.4rem;
+	padding-top: 5.6rem;
+	padding-bottom: 5.6rem;
+	background-color: $clr-gray-100;
+
+	&__heading {
+		font-size: $fs-title;
+		font-weight: $fw-900;
+		// margin-bottom: $mb-s;
+	}
+}
