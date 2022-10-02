@@ -15,6 +15,16 @@
 		row-gap: 0.4rem;
 		padding: 1.2rem;
 		flex: 1;
+		transition: all 0.3s;
+		margin-right: -50px;
+
+		&:hover + .menu-card__icon {
+			transform: translateX(0);
+		}
+
+		&:hover {
+			margin-right: 0px;
+		}
 
 		&__name {
 			grid-row: 1 / 2;
@@ -40,10 +50,11 @@
 	}
 
 	&__icon {
-		display: none;
+		transform: translateX(100%);
 		width: 5rem;
 		background-color: $clr-tertiary-400;
 		position: relative;
+		transition: all 0.3s;
 
 		&__wrapper {
 			background-color: $clr-gray-100;
