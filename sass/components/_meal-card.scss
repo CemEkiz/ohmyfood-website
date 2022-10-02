@@ -24,6 +24,10 @@
 		&__description {
 			grid-row: 2 / 3;
 			font-size: $fs-small;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+			padding-right: 0.8rem;
 		}
 
 		&__price {
@@ -36,7 +40,7 @@
 	}
 
 	&__icon {
-		// display: none;
+		display: none;
 		width: 5rem;
 		background-color: $clr-tertiary-400;
 		position: relative;
