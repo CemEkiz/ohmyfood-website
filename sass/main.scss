@@ -4,9 +4,9 @@
 @forward 'layout/header';
 @forward 'layout/discover';
 @forward 'layout/how';
-@forward 'layout/restaurant';
+@forward 'layout/restaurants';
 @forward 'layout/footer';
 
 @forward 'components/step.scss';
 @forward 'components/button';
-@forward 'components/menu-card';
+@forward 'components/restaurant-card';
