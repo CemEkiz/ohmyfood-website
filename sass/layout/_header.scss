@@ -12,3 +12,17 @@
 		width: 18rem;
 	}
 }
+
+.header--menu {
+	position: relative;
+	box-shadow: none;
+
+	&__icon {
+		width: 2rem;
+		height: 2rem;
+		position: absolute;
+		top: 50%;
+		left: 6%;
+		transform: translate(-50%, -50%);
+	}
+}

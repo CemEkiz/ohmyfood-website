@@ -6,7 +6,9 @@
 @forward 'layout/how';
 @forward 'layout/restaurants';
 @forward 'layout/footer';
+@forward 'layout/menu';
 
 @forward 'components/step.scss';
 @forward 'components/button';
 @forward 'components/restaurant-card';
+@forward 'components/meal-card';

@@ -1,0 +1,60 @@
+@use '../utils/' as *;
+
+.menu {
+	background-color: $clr-gray-100;
+	padding-top: 3.2rem;
+	padding-bottom: 4.2rem;
+	border-radius: $br-400;
+	position: relative;
+	margin-top: -5rem;
+
+	&__image {
+	}
+
+	&__heading {
+		display: flex;
+		align-items: center;
+
+		& h1 {
+			font-family: 'Shrikhand', cursive;
+			font-size: $fs-big-title;
+			flex: 1;
+		}
+
+		& svg {
+			height: 2.4rem;
+			width: 2.4rem;
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 1.6rem;
+
+		&__heading {
+			margin-top: 2.4rem;
+			position: relative;
+			text-transform: uppercase;
+
+			&::after {
+				content: '';
+				width: 4rem;
+				height: 0.3rem;
+				position: absolute;
+				bottom: -0.6rem;
+				left: 0;
+				background-color: $clr-tertiary-400;
+			}
+		}
+	}
+}
+
+.menu-image {
+	height: 300px;
+
+	& img {
+		height: 100%;
+		object-fit: cover;
+	}
+}
