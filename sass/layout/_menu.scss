@@ -16,16 +16,21 @@
 		display: flex;
 		align-items: center;
 		width: 100%;
+		position: relative;
 
 		& h1 {
 			font-family: 'Shrikhand', cursive;
 			font-size: $fs-big-title;
 			flex: 1;
+			max-width: 80%;
 		}
 
-		& svg {
-			height: 2.4rem;
-			width: 2.4rem;
+		& .heart-stroke {
+			top: 1rem;
+		}
+
+		& .heart-full {
+			top: 1rem;
 		}
 	}
 
