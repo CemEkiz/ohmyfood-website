@@ -29,6 +29,10 @@
 		&__name {
 			grid-row: 1 / 2;
 			font-weight: $fw-bold;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+			padding-right: 0.8rem;
 		}
 
 		&__description {
@@ -47,6 +51,11 @@
 			font-weight: $fw-bold;
 			font-size: $fs-small;
 		}
+	}
+
+	&__icon:hover {
+		transform: translateX(0);
+		margin-left: 50px;
 	}
 
 	&__icon {
