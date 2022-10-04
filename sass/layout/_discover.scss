@@ -12,8 +12,14 @@
 		color: $clr-gray-700;
 		background-color: $clr-gray-200;
 
+		& p {
+			position: relative;
+		}
+
 		&__icon {
 			fill: $clr-gray-700;
+			position: absolute;
+			left: -3rem;
 		}
 	}
 
