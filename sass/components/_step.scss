@@ -10,6 +10,10 @@
 	border-radius: $br-200;
 	cursor: pointer;
 
+	@include respond(tablet) {
+		width: 56rem;
+	}
+
 	&__number {
 		display: flex;
 		align-items: center;

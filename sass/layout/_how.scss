@@ -3,6 +3,13 @@
 .how {
 	margin-bottom: $mb-l;
 
+	@include respond(tablet) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
 	&__heading {
 		font-size: $fs-title;
 		font-weight: $fw-extrabold;

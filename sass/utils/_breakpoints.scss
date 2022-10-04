@@ -2,10 +2,6 @@
 /////////////////// BREAKPOINTS ///////////////////
 ///////////////////////////////////////////////////
 
-// 0 - 640px:             Mobile-first
-// 640px - 1280px:        Tablet                (min-width: 640px)      => 40em      (640/16 = 40)
-// 1280px +:              Desktop               (min-width: 1280px)     => 80em      (1280/16 = 80)
-
 @mixin respond($breakpoint) {
 	// 640px
 	@if $breakpoint == tablet {
@@ -17,6 +13,13 @@
 	// 1280px
 	@if $breakpoint == desktop {
 		@media only screen and (min-width: 80em) {
+			@content;
+		}
+	}
+
+	// 1536px
+	@if $breakpoint == big-screen {
+		@media only screen and (min-width: 96em) {
 			@content;
 		}
 	}

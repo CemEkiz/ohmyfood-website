@@ -4,6 +4,22 @@
 	max-width: 120rem;
 	padding: 0 2.4rem;
 	margin: 0 auto;
+
+	@include respond(tablet) {
+		padding-right: 12rem;
+		padding-left: 12rem;
+		max-width: 100%;
+	}
+
+	@include respond(desktop) {
+		padding-left: 24rem;
+		padding-right: 24rem;
+	}
+
+	@include respond(big-screen) {
+		padding-left: 36rem;
+		padding-right: 36rem;
+	}
 }
 
 .icon {

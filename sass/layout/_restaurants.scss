@@ -8,6 +8,9 @@
 	padding-bottom: 5.6rem;
 	background-color: $clr-gray-100;
 
+	@include respond(tablet) {
+	}
+
 	&__heading {
 		font-size: $fs-title;
 		font-weight: $fw-extrabold;
