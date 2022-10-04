@@ -21,36 +21,33 @@
 
 /* -------- Heart Icon Animation -------- */
 
-.heart-stroke {
-	position: absolute;
-	top: 2rem;
-	right: 1rem;
-	height: 2.4rem;
-	width: 2.4rem;
-	fill: $clr-gray-700;
-	margin-right: 1.2rem;
-	// padding: 1rem;
-	cursor: pointer;
-
-	&:hover + .heart-full {
-		transform: scale(1);
-	}
+#icon-heart {
+	width: 2.8rem;
+	height: 2.8rem;
 }
 
-.heart-full {
-	position: absolute;
-	top: 2rem;
-	right: 1rem;
-	height: 2.4rem;
-	width: 2.4rem;
-	margin-right: 1.2rem;
+#icon-heart-grp {
 	cursor: pointer;
+}
 
-	transition: all 0.6s;
+#icon-heart-grp:hover #icon-stroke {
+	stroke: url(#grad1);
+}
+
+#heart-full {
 	transform: scale(0);
-	transform-origin: 50% 100%;
+	fill: url(#grad1);
+	transition: all 0.6s;
+	transform-origin: 45% 100%;
+}
 
-	&:hover {
-		transform: scale(1);
-	}
+#icon-heart-grp:hover #heart-full {
+	transform: scale(1);
+}
+
+#icon-heart-grp #icon-stroke {
+	fill: transparent;
+	stroke-width: 40px;
+	stroke: $clr-gray-400;
+	transition: all 0.6s;
 }

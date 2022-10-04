@@ -15,22 +15,17 @@
 	&__heading {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 		width: 100%;
-		position: relative;
 
 		& h1 {
 			font-family: 'Shrikhand', cursive;
 			font-size: $fs-big-title;
-			flex: 1;
 			max-width: 80%;
 		}
 
-		& .heart-stroke {
-			top: 1rem;
-		}
-
-		& .heart-full {
-			top: 1rem;
+		svg {
+			margin-right: 2rem;
 		}
 	}
 
