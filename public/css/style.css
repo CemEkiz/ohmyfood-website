@@ -25,38 +25,6 @@
   align-items: center;
 }
 
-/* -------- Heart Icon Animation -------- */
-.icon-heart {
-  width: 2.8rem;
-  height: 2.8rem;
-}
-
-.icon-heart-grp {
-  cursor: pointer;
-}
-
-.icon-heart-grp:hover .icon-stroke {
-  stroke: url(#grad1);
-}
-
-.heart-full {
-  transform: scale(0);
-  fill: url(#grad1);
-  transition: all 0.6s;
-  transform-origin: 45% 100%;
-}
-
-.icon-heart-grp:hover .heart-full {
-  transform: scale(1);
-}
-
-.icon-heart-grp .icon-stroke {
-  fill: transparent;
-  stroke-width: 40px;
-  stroke: hsl(0deg, 0%, 50%);
-  transition: all 0.6s;
-}
-
 *,
 *::before,
 *::after {
@@ -483,6 +451,38 @@ svg {
   font-weight: 500;
   font-size: 1.4rem;
   padding: 0.4rem 1.2rem;
+}
+
+/* -------- Heart Icon Animation -------- */
+.icon-heart {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.icon-heart-grp {
+  cursor: pointer;
+}
+
+.icon-heart-grp:hover .icon-stroke {
+  stroke: url(#grad1);
+}
+
+.heart-full {
+  transform: scale(0);
+  fill: url(#grad1);
+  transition: all 0.6s;
+  transform-origin: 45% 100%;
+}
+
+.icon-heart-grp:hover .heart-full {
+  transform: scale(1);
+}
+
+.icon-heart-grp .icon-stroke {
+  fill: transparent;
+  stroke-width: 40px;
+  stroke: hsl(0deg, 0%, 50%);
+  transition: all 0.6s;
 }
 
 .menu-card {

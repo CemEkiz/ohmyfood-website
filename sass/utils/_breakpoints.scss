@@ -9,18 +9,4 @@
 			@content;
 		}
 	}
-
-	// 1280px
-	@if $breakpoint == desktop {
-		@media only screen and (min-width: 80em) {
-			@content;
-		}
-	}
-
-	// 1536px
-	@if $breakpoint == big-screen {
-		@media only screen and (min-width: 96em) {
-			@content;
-		}
-	}
 }

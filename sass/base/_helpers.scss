@@ -4,22 +4,6 @@
 	max-width: 120rem;
 	padding: 0 2.4rem;
 	margin: 0 auto;
-
-	// @include respond(tablet) {
-	// 	padding-right: 12rem;
-	// 	padding-left: 12rem;
-	// 	max-width: 100%;
-	// }
-
-	// @include respond(desktop) {
-	// 	padding-left: 24rem;
-	// 	padding-right: 24rem;
-	// }
-
-	// @include respond(big-screen) {
-	// 	padding-left: 36rem;
-	// 	padding-right: 36rem;
-	// }
 }
 
 .icon {
@@ -33,37 +17,4 @@
 
 .ac {
 	align-items: center;
-}
-
-/* -------- Heart Icon Animation -------- */
-
-.icon-heart {
-	width: 2.8rem;
-	height: 2.8rem;
-}
-
-.icon-heart-grp {
-	cursor: pointer;
-}
-
-.icon-heart-grp:hover .icon-stroke {
-	stroke: url(#grad1);
-}
-
-.heart-full {
-	transform: scale(0);
-	fill: url(#grad1);
-	transition: all 0.6s;
-	transform-origin: 45% 100%;
-}
-
-.icon-heart-grp:hover .heart-full {
-	transform: scale(1);
-}
-
-.icon-heart-grp .icon-stroke {
-	fill: transparent;
-	stroke-width: 40px;
-	stroke: $clr-gray-400;
-	transition: all 0.6s;
 }
