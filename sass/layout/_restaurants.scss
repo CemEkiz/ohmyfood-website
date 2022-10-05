@@ -1,14 +1,15 @@
 @use '../utils/' as *;
 
 .restaurant {
-	display: flex;
-	flex-direction: column;
-	gap: 2.4rem;
-	padding-top: 5.6rem;
-	padding-bottom: 5.6rem;
 	background-color: $clr-gray-100;
 
-	@include respond(tablet) {
+	&-container {
+		display: flex;
+		flex-direction: column;
+		gap: 2.4rem;
+		padding-top: 5.6rem;
+		padding-bottom: 5.6rem;
+		max-width: 100rem;
 	}
 
 	&__heading {

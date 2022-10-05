@@ -9,6 +9,11 @@
 	flex-direction: column;
 	box-shadow: $shadow-light;
 
+	// @include respond(tablet) {
+	// 	width: 100%;
+	// 	margin: 0 auto;
+	// }
+
 	&__image {
 		& picture {
 			height: 20rem;

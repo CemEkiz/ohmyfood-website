@@ -1,6 +1,8 @@
 @use '../utils/' as *;
 
 .how {
+	max-width: 100rem;
+	margin: 0 auto;
 	margin-bottom: $mb-l;
 
 	@include respond(tablet) {
