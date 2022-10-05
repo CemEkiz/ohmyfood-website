@@ -37,31 +37,31 @@
 
 /* -------- Heart Icon Animation -------- */
 
-#icon-heart {
+.icon-heart {
 	width: 2.8rem;
 	height: 2.8rem;
 }
 
-#icon-heart-grp {
+.icon-heart-grp {
 	cursor: pointer;
 }
 
-#icon-heart-grp:hover #icon-stroke {
+.icon-heart-grp:hover .icon-stroke {
 	stroke: url(#grad1);
 }
 
-#heart-full {
+.heart-full {
 	transform: scale(0);
 	fill: url(#grad1);
 	transition: all 0.6s;
 	transform-origin: 45% 100%;
 }
 
-#icon-heart-grp:hover #heart-full {
+.icon-heart-grp:hover .heart-full {
 	transform: scale(1);
 }
 
-#icon-heart-grp #icon-stroke {
+.icon-heart-grp .icon-stroke {
 	fill: transparent;
 	stroke-width: 40px;
 	stroke: $clr-gray-400;

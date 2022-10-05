@@ -1,255 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/public/css/style.css" />
-		<title>Ohmyfood - La palette du goût</title>
-	</head>
-	<body>
-		<!-- HEADER -->
-		<header id="top" class="header header--menu">
-			<a href="../index.html">
-				<img src="../assets/svg/logo-ohmyfood.svg" alt="Logo" class="header__logo" />
-			</a>
-			<a href="../index.html">
-				<svg class="header--menu__icon icon">
-					<use href="../assets/svg/symbols.svg#icon-arrow-back"></use>
-				</svg>
-			</a>
-		</header>
 
-		<!-- RESTAURANT IMAGE -->
-		<div class="menu-image">
-			<img src="../assets/img/restaurants/la-note-enchantee.jpg" alt="" />
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/public/css/style.css">
+	<title>Ohmyfood - La palette du goût</title>
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header id="top" class="header header--menu">
+		<a href="../index.html">
+			<img src="../assets/svg/logo-ohmyfood.svg" alt="Logo" class="header__logo">
+		</a>
+		<a href="../index.html">
+			<svg class="header--menu__icon icon">
+				<use href="../assets/svg/symbols.svg#icon-arrow-back"></use>
+			</svg>
+		</a>
+	</header>
+
+	<!-- RESTAURANT IMAGE -->
+	<div class="menu-image">
+		<img src="../assets/img/restaurants/la-note-enchantee.jpg" alt="Aperçu du restaurant">
+	</div>
+
+	<!-- MENU -->
+	<section class="menu | container">
+		<div class="menu__heading">
+			<h1>La note enchantée</h1>
+			<svg viewBox="-40 0 590 512" xmlns="http://www.w3.org/2000/svg" class="icon-heart">
+				<defs>
+					<linearGradient x1="0%" y1="0%" x2="0%" y2="100%">
+						<stop offset="0%" style="stop-color: hsl(267, 65%, 60%); stop-opacity: 1" />
+						<stop offset="100%" style="stop-color: hsl(316, 100%, 73%); stop-opacity: 1" />
+					</linearGradient>
+				</defs>
+
+				<g class="icon-heart-grp">
+					<path class="heart-full"
+						d="M47.6 300.249L228.3 468.949C235.8 475.949 245.7 479.849 256 479.849C266.3 479.849 276.2 475.949 283.7 468.949L464.4 300.249C494.8 271.949 512 232.249 512 190.749V184.949C512 115.049 461.5 55.4491 392.6 43.9491C347 36.3491 300.6 51.2491 268 83.8491L256 95.8491L244 83.8491C211.4 51.2491 165 36.3491 119.4 43.9491C50.5 55.4491 0 115.049 0 184.949V190.749C0 232.249 17.2 271.949 47.6 300.249Z" />
+					<path class="icon-stroke"
+						d="M47.6 300.249L228.3 468.949C235.8 475.949 245.7 479.849 256 479.849C266.3 479.849 276.2 475.949 283.7 468.949L464.4 300.249C494.8 271.949 512 232.249 512 190.749V184.949C512 115.049 461.5 55.4491 392.6 43.9491C347 36.3491 300.6 51.2491 268 83.8491L256 95.8491L244 83.8491C211.4 51.2491 165 36.3491 119.4 43.9491C50.5 55.4491 0 115.049 0 184.949V190.749C0 232.249 17.2 271.949 47.6 300.249Z" />
+				</g>
+			</svg>
 		</div>
 
-		<!-- MENU -->
-		<section class="menu | container">
-			<div class="menu__heading">
-				<h1>La note enchantée</h1>
-				<svg viewBox="-40 0 590 512" xmlns="http://www.w3.org/2000/svg" id="icon-heart">
-					<defs>
-						<linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
-							<stop
-								offset="0%"
-								style="stop-color: hsl(267, 65%, 60%); stop-opacity: 1"
-							/>
-							<stop
-								offset="100%"
-								style="stop-color: hsl(316, 100%, 73%); stop-opacity: 1"
-							/>
-						</linearGradient>
-					</defs>
-
-					<g id="icon-heart-grp">
-						<path
-							id="heart-full"
-							d="M47.6 300.249L228.3 468.949C235.8 475.949 245.7 479.849 256 479.849C266.3 479.849 276.2 475.949 283.7 468.949L464.4 300.249C494.8 271.949 512 232.249 512 190.749V184.949C512 115.049 461.5 55.4491 392.6 43.9491C347 36.3491 300.6 51.2491 268 83.8491L256 95.8491L244 83.8491C211.4 51.2491 165 36.3491 119.4 43.9491C50.5 55.4491 0 115.049 0 184.949V190.749C0 232.249 17.2 271.949 47.6 300.249Z"
-						/>
-						<path
-							id="icon-stroke"
-							d="M47.6 300.249L228.3 468.949C235.8 475.949 245.7 479.849 256 479.849C266.3 479.849 276.2 475.949 283.7 468.949L464.4 300.249C494.8 271.949 512 232.249 512 190.749V184.949C512 115.049 461.5 55.4491 392.6 43.9491C347 36.3491 300.6 51.2491 268 83.8491L256 95.8491L244 83.8491C211.4 51.2491 165 36.3491 119.4 43.9491C50.5 55.4491 0 115.049 0 184.949V190.749C0 232.249 17.2 271.949 47.6 300.249Z"
-						/>
-					</g>
-				</svg>
-			</div>
-
-			<div class="menu__list">
-				<div class="menu__list__category">
-					<h2>Entrées</h2>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Ravioles de foie gras</p>
-							<p class="menu-card__content__description">
-								Accompagnés de leur crème à la truffe
-							</p>
-							<p class="menu-card__content__price">25€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
-						</div>
+		<div class="menu__list">
+			<div class="menu__list__category">
+				<h2>Entrées</h2>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Ravioles de foie gras</p>
+						<p class="menu-card__content__description">
+							Accompagnés de leur crème à la truffe
+						</p>
+						<p class="menu-card__content__price">25€</p>
 					</div>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Caviar osciètre</p>
-							<p class="menu-card__content__description">
-								Sur blini à la farine de blé noir
-							</p>
-							<p class="menu-card__content__price">35€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
-						</div>
-					</div>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Homard et espuma de potiron</p>
-							<p class="menu-card__content__description">
-								Mariné aux zestes d'orange
-							</p>
-							<p class="menu-card__content__price">20€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
-						</div>
-					</div>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Foie gras de canard cuit entier</p>
-							<p class="menu-card__content__description">
-								Confiture de figue et pain toasté
-							</p>
-							<p class="menu-card__content__price">35€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
 						</div>
 					</div>
 				</div>
-
-				<div class="menu__list__category">
-					<h2>Plats</h2>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Noix de coquilles Saint-Jacques</p>
-							<p class="menu-card__content__description">
-								Sur lit de purée de céleri-rave
-							</p>
-							<p class="menu-card__content__price">40€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
-						</div>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Caviar osciètre</p>
+						<p class="menu-card__content__description">
+							Sur blini à la farine de blé noir
+						</p>
+						<p class="menu-card__content__price">35€</p>
 					</div>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Langoustine poêlée</p>
-							<p class="menu-card__content__description">Purée de patate douce</p>
-							<p class="menu-card__content__price">35€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
-						</div>
-					</div>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Mijoté de queue de boeuf</p>
-							<p class="menu-card__content__description">
-								Et riz sauvage aux zestes de citron
-							</p>
-							<p class="menu-card__content__price">44€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
 						</div>
 					</div>
 				</div>
-
-				<div class="menu__list__category">
-					<h2>Desserts</h2>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Macaron noisette et chocolats</p>
-							<p class="menu-card__content__description">
-								Glace au caramel brun et sel de Guérande
-							</p>
-							<p class="menu-card__content__price">18€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Homard et espuma de potiron</p>
+						<p class="menu-card__content__description">
+							Mariné aux zestes d'orange
+						</p>
+						<p class="menu-card__content__price">20€</p>
+					</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
 						</div>
 					</div>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Baba au rhum revisité</p>
-							<p class="menu-card__content__description">Avec son coulis de citron</p>
-							<p class="menu-card__content__price">22€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
-						</div>
+				</div>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Foie gras de canard cuit entier</p>
+						<p class="menu-card__content__description">
+							Confiture de figue et pain toasté
+						</p>
+						<p class="menu-card__content__price">35€</p>
 					</div>
-					<div class="menu-card">
-						<div class="menu-card__content">
-							<p class="menu-card__content__name">Tarte au citron meringuée</p>
-							<p class="menu-card__content__description">Destructurée</p>
-							<p class="menu-card__content__price">23€</p>
-						</div>
-						<div class="menu-card__icon">
-							<div class="menu-card__icon__wrapper">
-								<svg class="icon">
-									<use href="../assets/svg/symbols.svg#icon-check"></use>
-								</svg>
-							</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<a href="#restaurants" class="button">Commander</a>
-		</section>
+			<div class="menu__list__category">
+				<h2>Plats</h2>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Noix de coquilles Saint-Jacques</p>
+						<p class="menu-card__content__description">
+							Sur lit de purée de céleri-rave
+						</p>
+						<p class="menu-card__content__price">40€</p>
+					</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Langoustine poêlée</p>
+						<p class="menu-card__content__description">Purée de patate douce</p>
+						<p class="menu-card__content__price">35€</p>
+					</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Mijoté de queue de boeuf</p>
+						<p class="menu-card__content__description">
+							Et riz sauvage aux zestes de citron
+						</p>
+						<p class="menu-card__content__price">44€</p>
+					</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
 
-		<!-- FOOTER -->
-		<footer class="footer | container">
-			<a href="#top" class="footer__logo">
-				<svg>
-					<use href="../assets/svg/symbols.svg#logo-ohmyfood"></use>
-				</svg>
-			</a>
-			<nav class="footer__nav">
-				<ul class="footer__nav__links">
-					<li class="flex ac">
-						<svg class="icon">
-							<use href="../assets/svg/symbols.svg#icon-eat"></use></svg
-						><a href="#">Proposer un restaurant</a>
-					</li>
-					<li class="flex ac">
-						<svg class="icon">
-							<use href="../assets/svg/symbols.svg#icon-handshake"></use></svg
-						><a href="#">Devenir partenaire</a>
-					</li>
-					<li><a href="#">Mentions légales</a></li>
-					<li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
-				</ul>
-			</nav>
-		</footer>
-	</body>
+			<div class="menu__list__category">
+				<h2>Desserts</h2>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Macaron noisette et chocolats</p>
+						<p class="menu-card__content__description">
+							Glace au caramel brun et sel de Guérande
+						</p>
+						<p class="menu-card__content__price">18€</p>
+					</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Baba au rhum revisité</p>
+						<p class="menu-card__content__description">Avec son coulis de citron</p>
+						<p class="menu-card__content__price">22€</p>
+					</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="menu-card">
+					<div class="menu-card__content">
+						<p class="menu-card__content__name">Tarte au citron meringuée</p>
+						<p class="menu-card__content__description">Destructurée</p>
+						<p class="menu-card__content__price">23€</p>
+					</div>
+					<div class="menu-card__icon">
+						<div class="menu-card__icon__wrapper">
+							<svg class="icon">
+								<use href="../assets/svg/symbols.svg#icon-check"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a href="#restaurants" class="button">Commander</a>
+	</section>
+
+	<!-- FOOTER -->
+	<footer class="footer | container">
+		<a href="#top" class="footer__logo">
+			<svg>
+				<use href="../assets/svg/symbols.svg#logo-ohmyfood"></use>
+			</svg>
+		</a>
+		<nav class="footer__nav">
+			<ul class="footer__nav__links">
+				<li class="flex ac">
+					<svg class="icon">
+						<use href="../assets/svg/symbols.svg#icon-eat"></use>
+					</svg><a href="#">Proposer un restaurant</a>
+				</li>
+				<li class="flex ac">
+					<svg class="icon">
+						<use href="../assets/svg/symbols.svg#icon-handshake"></use>
+					</svg><a href="#">Devenir partenaire</a>
+				</li>
+				<li><a href="#">Mentions légales</a></li>
+				<li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+
 </html>
