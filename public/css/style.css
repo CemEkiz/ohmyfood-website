@@ -364,6 +364,10 @@ svg {
 @media only screen and (min-width: 40em) {
   .step {
     width: 56rem;
+    transition: all 0.3s;
+  }
+  .step:hover {
+    background-color: hsl(267deg, 65%, 95%);
   }
 }
 .step__number {
@@ -416,6 +420,12 @@ svg {
   display: flex;
   flex-direction: column;
   box-shadow: 0 2px 10px 0 hsla(0deg, 0%, 10%, 0.08);
+  transition: all 0.3s;
+}
+@media only screen and (min-width: 40em) {
+  .restaurant-card:hover {
+    transform: scale(1.01);
+  }
 }
 .restaurant-card__image picture {
   height: 20rem;

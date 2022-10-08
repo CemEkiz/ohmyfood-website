@@ -12,6 +12,11 @@
 
 	@include respond(tablet) {
 		width: 56rem;
+		transition: all 0.3s;
+
+		&:hover {
+			background-color: $clr-primary-100;
+		}
 	}
 
 	&__number {
