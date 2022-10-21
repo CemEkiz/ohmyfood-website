@@ -516,6 +516,10 @@ svg {
 .menu-card__content:hover + .menu-card__icon {
   transform: translateX(0);
 }
+.menu-card__content:hover + .menu-card__icon .menu-card__icon__wrapper {
+  animation: spin 1s;
+  transform-origin: center center;
+}
 .menu-card__content:hover {
   margin-right: 0px;
 }
@@ -552,16 +556,15 @@ svg {
   background-color: hsl(165deg, 55%, 74%);
   position: relative;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .menu-card__icon__wrapper {
   background-color: hsl(0deg, 0%, 96%);
   padding: 1rem;
   border-radius: 50%;
   position: relative;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .menu-card__icon svg {
   position: absolute;
@@ -571,6 +574,15 @@ svg {
   fill: hsl(165deg, 55%, 74%);
   width: 1.4rem;
   height: 1.4rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
