@@ -99,6 +99,7 @@ svg {
 
 .discover {
   margin-bottom: 6.4rem;
+  background-color: hsl(0deg, 0%, 90%);
 }
 .discover__location {
   display: flex;
@@ -106,15 +107,35 @@ svg {
   gap: 1.6rem;
   padding: 1.8rem;
   color: hsl(0deg, 0%, 30%);
-  background-color: hsl(0deg, 0%, 90%);
-}
-.discover__location p {
+  display: inline-block;
   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.discover__location input {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  width: 120px;
+}
+.discover__location input:focus::placeholder {
+  color: transparent;
+}
+.discover__location input:focus {
+  border: none;
+  outline: none;
+}
+.discover__location ::placeholder {
+  text-align: center;
+  color: hsl(0deg, 0%, 10%);
 }
 .discover__location__icon {
   fill: hsl(0deg, 0%, 30%);
   position: absolute;
-  left: -3rem;
+  left: -1rem;
+  top: 49%;
+  transform: translateY(-50%);
 }
 .discover__content {
   padding: 6.4rem 4rem;

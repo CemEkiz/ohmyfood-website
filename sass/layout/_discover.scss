@@ -2,6 +2,7 @@
 
 .discover {
 	margin-bottom: $mb-l;
+	background-color: $clr-gray-200;
 
 	&__location {
 		display: flex;
@@ -9,16 +10,39 @@
 		gap: 1.6rem;
 		padding: 1.8rem;
 		color: $clr-gray-700;
-		background-color: $clr-gray-200;
+		display: inline-block;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 0%);
 
-		& p {
-			position: relative;
+		& input {
+			border: none;
+			background-color: transparent;
+			padding: 5px;
+			width: 120px;
+		}
+
+		& input:focus::placeholder {
+			color: transparent;
+		}
+
+		& input:focus {
+			border: none;
+			outline: none;
+		}
+
+		& ::placeholder {
+			text-align: center;
+			color: $clr-black;
 		}
 
 		&__icon {
 			fill: $clr-gray-700;
 			position: absolute;
-			left: -3rem;
+			left: -1rem;
+			top: 49%;
+			transform: translateY(-50%);
 		}
 	}
 
