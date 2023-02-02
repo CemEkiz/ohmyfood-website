@@ -1,30 +1,18 @@
-# <center> Ohmyfood
+# Ohmyfood
 
-## <center> ![Showcase - Ohmyfood](https://i.imgur.com/o7kvGmN.png)
+Ohmyfood offers fast reservation services for gastronomic restaurants.
 
-## <center> 🔗 [Link to the website](https://ohmyfood-cem.netlify.app)
+## 🔗 [Link to the website](https://ohmyfood-cem.netlify.app)
 
-## <center> Description
+ ![Showcase - Ohmyfood](https://i.imgur.com/o7kvGmN.png)
 
-<center>Ohmyfood offers fast reservation services for gastronomic restaurants. </center>
+## Toolbox
 
-# Process
-
-## What tools I used for this project ?
-
--   HTML5
+-   HTML
 -   Sass
--   CSS Animations
--   Flexbox & Grid
 
-## What was the goal of this project ?
+## Features
 
-The goal of this project was simply to code a UI provided by a designer, I made this project for my formation in Openclassrooms. I've developed it on my own. <br>
-
-Requierements to validate this project :
-
--   Advanced CSS animations
--   Website working on Chrome and Mozilla
--   Responsive for desktop, tablet and mobile
--   Using semantic tags
--   Sass optionnal but no framework
+-   Layout made with CSS Grid & Flexbox
+-   Cool CSS animations
+-   Responsive website
