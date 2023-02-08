@@ -1,18 +1,25 @@
-# Ohmyfood
+<div align="center">
+  <p align=center>
+    <h1>Ohmyfood</h1>
+    <br />
+    <p>A multi-pages website to reserve places in differents restaurants</p>
+    <h3><a href="https://ohmyfood-cem.netlify.app/">🔗 Link to the Website</a></h2>
+    <img src="showcase.png" />
+  </p>
+</div>
 
-Ohmyfood offers fast reservation services for gastronomic restaurants.
+## Built with
 
-## 🔗 [Link to the website](https://ohmyfood-cem.netlify.app)
-
- ![Showcase - Ohmyfood](https://i.imgur.com/o7kvGmN.png)
-
-## Toolbox
-
--   HTML
--   Sass
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 ## Features
 
--   Layout made with CSS Grid & Flexbox
--   Cool CSS animations
--   Responsive website
+- Multi-pages website
+- Advanced animations and transitions
+- Use of Flexbox and Grid
+- Responsive and classic design
+
+## Context of the Project
+
+I built this website to validate my training at Openclassrooms
